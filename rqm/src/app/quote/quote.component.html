@@ -1,0 +1,13 @@
+<div id="quote-box">
+    <div id="text">
+        <span>"{{quote.content}}"</span> 
+    </div>
+    <div id="author">
+        <span>-{{quote.author}}</span> 
+    </div>
+    <div class="buttons">
+        <a class="button" id="tumblr-quote" (click)="onShareTumblr()">Tumblr</a>
+        <a class="button" id="tweet-quote" (click)="onShareTwitter()">Twitter</a>
+        <a class="button" id="new-quote"(click)="onNext()">New Quote</a>
+    </div>
+</div>
